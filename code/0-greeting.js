@@ -9,5 +9,9 @@ function greeting() {
 }
 
 function joke() {
-  // write the code for your joke here.
+  let user = prompt ('Knock Knock')
+
+  let answer = prompt ('Spell')
+
+  alert ('Sure, W-H-O')
 }
