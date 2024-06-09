@@ -3,9 +3,9 @@
 // ####################################
 
 function greeting() {
-  let username = prompt("What's your name?")
+  let answer = prompt('What is your hair colour')
 
-  alert('Hello ' + username)
+  alert('You have ' + answer + ' coloured hair')
 }
 
 function joke() {
