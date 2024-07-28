@@ -16,6 +16,8 @@ function welcome() {
 }
 
 function questionnaire() {
+  const extraYear = 1
+
   let name = prompt ('What is your name')
   alert ('Hello ' + name + '!')
 
@@ -25,8 +27,10 @@ function questionnaire() {
   let colour = prompt ('What is your favourite colour?')
   alert ('Oooh I like the colour ' + colour + '!')
 
+
   let age = prompt ('Finally, how old are you?')
   age = Number (age)
-  age=age+1
+  age=age+extraYear
+
   alert ('That must mean on your next birthday you will be turning ' + age + '!')
 }
